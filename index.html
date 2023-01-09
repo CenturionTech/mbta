@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<title>MBTA Route# 1 Bus Locations</title>
-<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
-<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
-<style>
-  body { margin: 0; padding: 0; }
-  #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-  .map-overlay{
-    position: absolute;
-    left: 0;
-    padding: 10px;
-  }
-</style>
+	<meta charset="utf-8" />
+	<title>MBTA Route# 1 Bus Locations</title>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./style.css" />
+	
+		
+
 </head>
 <body>
 	<div id="map"></div>
@@ -23,6 +18,8 @@
 		Show MBTA Route# 1 Bus Locations in real time
 	  </button>
 	</div>
+	
+	<script src="./mapanimation.js"></script>
 
 <script>
 	// sound effects
